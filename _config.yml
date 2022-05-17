@@ -92,7 +92,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+#disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -224,7 +224,8 @@ scholar:
 
   query: "@*"
 
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtexshow, html, pdf, selected, supp, blog, code, poster, slides, website] # Filter out certain bibtex entry keywords used internally from the bib output
+# Filter out certain bibtex entry keywords used internally from the bib output
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtexshow, html, pdf, selected, supp, blog, code, poster, slides, website] 
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
