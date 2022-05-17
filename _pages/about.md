@@ -1,24 +1,23 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. MRC Human Genetics Unit & School of Informatics (University of Edinburgh)
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Institute of Genetics and Cancer,</p>
+    <p>2XU, Crewe Road South,</p>
+    <p>Edinburgh</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am post doctoral cross disciplinary fellow ([XDF](https://www.ed.ac.uk/cross-disciplinary-fellowships)) at the University of Edinburgh working in machine learning and statistical modelling of single cell genomics. My aim is to purse cross-disciplinary research in the intersection of data science and biomedicine.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am working with [Catalina Vallejos](https://vallejosgroup.github.io/) and collaborate closely with [Neil Henderson's](https://www.ed.ac.uk/inflammation-research/people/principal-investigators/professor-neil-henderson) lab where we use multi-modal single cell technologies to decode the molecular mechanisms regulating liver fibrosis and regeneration. I did my `PhD` at the School of Informatics (University of Edinburgh) under the supervision of [Guido Sanguinetti](https://datascience.sissa.it/person/11/guido-sanguinetti).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

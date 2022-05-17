@@ -6,7 +6,7 @@ layout: default
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+           {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} <span class="font-weight-bold">{{ site.last_name }}</span>{%- else -%}{{ site.title }}{%- endif %}
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -41,6 +41,28 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
+
+
+          <style type="text/css">
+          #inner {
+            display: table;
+            margin: 0 auto;
+          }
+          #outer {
+            width:100%
+          }
+        </style>
+
+
+          <div id="outer">
+            <div id="inner">
+              <a class="twitter-timeline" data-width="500" data-tweet-limit="3" href="https://twitter.com/AndreasKapou?ref_src=twsrc%5Etfw">Tweets by AndreasKapou</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          <br>
+
+
+
           {%- if page.social %}
           <!-- Social -->
           <div class="social">
