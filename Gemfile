@@ -6,7 +6,7 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-imagemagick'
-    gem 'jekyll-minifier'
+    #gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
@@ -16,8 +16,11 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'htmlcompressor'
+    gem 'htmlbeautifier'
 end
 group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+ 
