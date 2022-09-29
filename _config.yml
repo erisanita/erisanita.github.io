@@ -3,24 +3,24 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Andreas
-middle_name: C.
-last_name: Kapourani
-email: kapouranis.andreas@gmail.com
+first_name: Erisa
+middle_name:
+last_name: Nita
+email: erisa_nita@windowslive.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Cross disciplinary research fellow.
+  Post-doctoral research fellow.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: kapourani, chantriolnt, andreas, single-cell, genomics, machine-learning, data-science  # add your own keywords or leave empty
+keywords: nita, erisa, nita # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://andreaskapou.github.io # the base hostname & protocol  for your site
+url: https://erisanita.github.io # the base hostname & protocol  for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in page, helps to conform with EU GDPR
-repository: "andreaskapou/andreaskapou.github.io"
+repository: "erisanita/erisanita.github.io"
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -54,12 +54,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: andreaskapou # your GitHub user name
+github_username: erisanita # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: AndreasKapou # your Twitter handle
-linkedin_username: kapouranis # your LinkedIn user name
-scholar_userid: RXTwUEsAAAAJ # your Google Scholar ID
-orcid_id: 0000-0003-2303-1953 # your ORCID ID
+twitter_username: erisa_nita # your Twitter handle
+linkedin_username: erisanita # your LinkedIn user name
+scholar_userid:  # your Google Scholar ID
+orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
@@ -82,10 +82,10 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Biomedical data science # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Blog and tutorials about (my take on) statistical machine learning methods.
-permalink: /blog/:year/:title/
+blog_name: # blog_name will be displayed in your blog page
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
+blog_description: 
+permalink:
 
 # Pagination
 pagination:
@@ -219,8 +219,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Kapourani
-  first_name: [Chantriolnt-Andreas]
+  last_name: Nita
+  first_name: [Erisa]
 
   style: apa
   locale: en
